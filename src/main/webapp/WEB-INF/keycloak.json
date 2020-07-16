@@ -1,0 +1,13 @@
+{
+  "realm": "jhipster",
+  "bearer-only": true,
+  "auth-server-url": "http://keycloak-carpetaciudadana-desarrollo.apps.ocp4-dev.gcba.gob.ar/auth/",
+  "ssl-required": "external",
+  "resource": "carpeta-back",
+  "verify-token-audience": true,
+  "credentials": {
+    "secret": "2a48d6ba-93f3-49a6-a350-8bcca62f7ac5"
+  },
+  "use-resource-role-mappings": true,
+  "confidential-port": 0
+}

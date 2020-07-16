@@ -1,0 +1,38 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.appclient.app"
+    },
+    "jhipsterVersion": "6.8.0",
+    "applicationType": "microservice",
+    "baseName": "appclient",
+    "packageName": "com.appclient.app",
+    "packageFolder": "com/appclient/app",
+    "serverPort": "8081",
+    "authenticationType": "oauth2",
+    "cacheProvider": "no",
+    "enableHibernateCache": false,
+    "websocket": false,
+    "databaseType": "no",
+    "devDatabaseType": "no",
+    "prodDatabaseType": "no",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "MTBlNDA3Nzg5ZjI4YjgyNjVmYWEyZTU3ZDg5NWYyNjRhNTU1MDgyZmYzZTNiY2M2ODJkM2RmZWY2MDQxYmNlZTQ0ZmYzNTJjMTY1MzkyMDQ3YTliMWY2MjY1MzJhMzg5MzZkMTZhNGRkZjNmYTNjMTZiNGFkYTI5NDVkYzM5OTQ=",
+    "embeddableLaunchScript": false,
+    "creationTimestamp": 1594734059210,
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": false,
+    "clientPackageManager": "npm",
+    "blueprints": [],
+    "skipClient": true,
+    "skipUserManagement": true
+  }
+}

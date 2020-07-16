@@ -1,0 +1,9 @@
+<secure-deployment name="JAR MODULE appclient.jar">
+    <realm>jhipster</realm>
+    <auth-server-url>http://keycloak-carpetaciudadana-desarrollo.apps.ocp4-dev.gcba.gob.ar/auth/</auth-server-url>
+    <ssl-required>EXTERNAL</ssl-required>
+    <resource>carpeta-back</resource>
+    <verify-token-audience>true</verify-token-audience>
+    <credential name="secret">2a48d6ba-93f3-49a6-a350-8bcca62f7ac5</credential>
+    <use-resource-role-mappings>true</use-resource-role-mappings>
+</secure-deployment>
