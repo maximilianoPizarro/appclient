@@ -94,5 +94,16 @@ jhipster:
 # More documentation is available at:
 # https://www.jhipster.tech/common-application-properties/
 # ===================================================================
-
+keycloak:
+  realm: jhipster
+  auth-server-url: http://keycloak-carpetaciudadana-desarrollo.apps.ocp4-dev.gcba.gob.ar/auth
+  ssl-required: external
+  resource: carpeta-back
+  credentials.secret: 2a48d6ba-93f3-49a6-a350-8bcca62f7ac5
+  use-resource-role-mappings: true
+  bearer-only: true
+  enabled: true
 # application:
+# application:
+app:
+  keycloak-context: classpath:spring/keyclaok.json

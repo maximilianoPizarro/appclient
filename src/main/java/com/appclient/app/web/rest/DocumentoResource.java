@@ -69,7 +69,7 @@ public class DocumentoResource {
     	/**
 	 * GET /private
 	 */
-	@RolesAllowed({ AuthoritiesConstants.ADMIN,AuthoritiesConstants.USER})
+	@RolesAllowed({ AuthoritiesConstants.USER})
 	@PutMapping("/private")
 	public ResponseEntity<String>  ejemplo2() {
 		return ResponseEntity.ok().body("User");

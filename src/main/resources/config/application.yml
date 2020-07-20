@@ -130,6 +130,7 @@ keycloak:
   credentials.secret: 2a48d6ba-93f3-49a6-a350-8bcca62f7ac5
   use-resource-role-mappings: true
   bearer-only: true
+  enabled: true
 
 server:
   servlet:
@@ -188,4 +189,4 @@ jhipster:
 
 # application:
 app:
-  keycloak-context: classpath:spring/keyclaok.xml
+  keycloak-context: WEB-INF/keyclaok.json
