@@ -131,7 +131,8 @@ keycloak:
   use-resource-role-mappings: true
   bearer-only: true
   enabled: true
-
+  cors: true
+  
 server:
   servlet:
     session:
